@@ -9,11 +9,11 @@ const Index = () => {
   };
 
   const renderHome = () => (
-    <div className="text-center p-10">
-      <h1 className="text-4xl font-serif text-red-700 mb-4">Welcome to Custom GPT Reviews</h1>
+    <div className="text-center p-10 bg-black border-gold">
+      <h1 className="text-4xl font-script text-red-700 mb-4">Welcome to Custom GPT Reviews</h1>
       <p className="mb-6">Explore and compare different GPT models to find the best fit for your needs.</p>
-      <div className="flex justify-center gap-4">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={() => navigateTo("review")}>
+      <div className="flex justify-center gap-4 bg-black">
+        <button className="bg-red-700 hover:bg-red-900 text-gold font-bold py-2 px-4 rounded" onClick={() => navigateTo("review")}>
           Request a Review
         </button>
         <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" onClick={() => navigateTo("compare")}>
