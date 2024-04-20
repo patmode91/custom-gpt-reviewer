@@ -5,7 +5,7 @@ const UserProfile = () => {
     <div className="p-10">
       <div className="text-center mb-10">
         <img src="/path/to/default/avatar.jpg" alt="Profile Avatar" className="rounded-full w-24 h-24 mx-auto" />
-        <h1 className="text-2xl font-bold mt-4">Username</h1>
+        <h1 className="text-2xl font-serif text-red-700 mt-4">Username</h1>
         <p className="text-sm">User Rating: ★★★★☆</p>
       </div>
       <div className="mb-10">
